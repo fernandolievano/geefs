@@ -1,5 +1,7 @@
 {
-  "name": "nuxt-app",
+  "name": "geefs",
+  "author": "fernandolievano",
+  "description": "Simple project made with Nuxt",
   "private": true,
   "type": "module",
   "scripts": {
