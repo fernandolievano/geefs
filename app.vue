@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="bg-black text-white min-h-screen">
     <h1>Geefs | Gifs search tool</h1>
     <h4>Rebuilding...</h4>
   </main>
