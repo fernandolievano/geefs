@@ -1,11 +1,17 @@
 <template>
-  <main class="bg-black text-white min-h-screen">
-    <h1>Geefs | Gifs search tool</h1>
-    <h4>Rebuilding...</h4>
+  <main class="min-h-screen text-white bg-black pt-[160px] pb-[80px]">
+    <Navbar />
+
+    <div class="px-4">
+      <h1 class="text-5xl text-center ">Rebuilding...</h1>
+      <slot></slot>
+    </div>
   </main>
 </template>
 
 <script setup>
+import Navbar from '@/components/Navbar';
+
 useHead({
   title: 'Geefs | Gifs search tool',
   meta: [
@@ -16,5 +22,5 @@ useHead({
       rel: 'icon', type: 'image/x-icon', href: '/geef.ico'
     }
   ]
-})
+});
 </script>
