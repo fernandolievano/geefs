@@ -3,8 +3,11 @@
     <Navbar />
 
     <div class="px-4">
-      <h1 class="text-5xl text-center ">Rebuilding...</h1>
-      <slot></slot>
+      <h1 class="text-5xl text-center animate-pulse">Rebuilding...</h1>
+
+      <div class="py-8">
+        <slot />
+      </div>
     </div>
   </main>
 </template>
