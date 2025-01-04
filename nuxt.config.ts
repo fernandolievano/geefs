@@ -16,4 +16,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+    tenorApiKey: process.env.NUXT_TENOR_API_KEY
+  }
 })

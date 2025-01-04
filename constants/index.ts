@@ -1,0 +1,1 @@
+export const TENOR_API_URL = 'https://api.tenor.com/v1'
