@@ -1,5 +1,6 @@
 <template>
-  <div class="w-full py-4" :id="gif.name">
+  <div class="inline-block w-full py-4 " :id="gif.name">
+    <h4 class="px-2 py-2">{{ gif.name }}</h4>
     <img :src="gif.image" :alt="`tenor - ${gif.name}`" class="object-cover w-full rounded-lg" loading="lazy"
       :title="gif.name">
   </div>
@@ -37,7 +38,7 @@ onMounted(() => {
 
 <style scoped>
 img:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
   transition: transform 0.3s;
   box-shadow: 0 0 18px 2px currentColor;
 }
