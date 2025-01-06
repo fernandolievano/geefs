@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.5",
+    "fast-average-color": "^9.4.0",
     "nuxt": "^3.13.0",
     "pinia": "^2.2.4",
     "vue": "latest",
