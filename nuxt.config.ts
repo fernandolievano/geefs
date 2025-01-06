@@ -17,6 +17,6 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
-    tenorApiKey: process.env.NUXT_TENOR_API_KEY
+    tenorApiKey: process.env.VITE_TENOR_API_KEY
   }
 })
